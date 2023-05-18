@@ -5,6 +5,13 @@ html {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
 }
+body {
+    background-image: url("https://technologywithpurpose.org/wp-content/uploads/2022/11/twp-home.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    margin: 0;
+}
 
 p {
     margin-right: 2em;
@@ -25,6 +32,139 @@ button {
 
 div#navbar-left img {
     width: 8em;
+}
+
+.headerC {
+    background-color: white;
+    display: flex;
+    border-bottom: 1px solid gray;
+    padding: 14px 400px;
+    justify-content: space-between;
+}
+
+.headerB:hover{
+color:purple;
+cursor: pointer;
+}
+
+.sumate:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.fa-brands:hover {
+     color: purple;
+}
+
+.fa-brands{
+    padding-left: 10px;
+}
+
+.home-text {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+}
+
+.lema {
+    font-size: 28px;
+    width: 30%;
+}
+
+.contact {
+    width: 140px;
+   
+}
+
+.contact:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.sumate-home{
+    border-color: #6b53f0;
+    color: #6b53f0;
+}
+
+.sumate-home:hover{
+    color: white;
+    background-color: #6b53f0;
+    cursor: pointer;
+}
+
+.home-abajo{
+    display: flex;
+    background-color: #201b24;
+    color: white;
+    height: 450px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.home-abajo-fake{
+    display: flex;
+    width: 45%;
+}
+
+.left{
+    font-size: 20px;
+    width: 50%;
+}
+
+.alcance{
+    display: flex;
+    align-items: end;
+}
+
+.alcance-data{
+    text-align: center;
+}
+
+.alcance-data-numeros{
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.plus{
+    font-size: 25px;
+    color: #6b53f0;
+}
+
+.plus-box{
+    display: flex;
+    align-items: center;
+}
+
+.alcance-data-text{
+    font-size: 15px;
+    color: #a8a8a8;
+    text-align: center;
+    width: 100%;
+}
+
+.footer{
+    display: flex;
+    background-color: #201b24;
+    color: white;
+    justify-content: space-evenly;
+    padding: 50px 200px;
+}
+
+.footer-lema{
+    width: 250px;
+    font-size: 15px;
+}
+
+.footer-links{
+    justify-content: space-evenly;
+    display: flex;
+    width: 600px;
 }
 
 @media (width >= 2500px) {
